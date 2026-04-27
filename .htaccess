@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteBase /
+
+# Force HTTPS + remove www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.devnexusit\.com$ [NC]
+RewriteRule ^(.*)$ https://devnexusit.com/$1 [L,R=301]
+
+# ✅ 1. Skip real files & folders (IMPORTANT)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# ✅ 2. Admin folder bypass (very important for safety)
+RewriteRule ^admin/ - [L]
+
+# ✅ 3. Redirect .php → clean URL (SEO friendly)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# ✅ 4. Remove trailing slash (except real folders)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1 [R=301,L]
+
+# ✅ 5. Internally rewrite clean URL → .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# ✅ 6. 404 fallback
+ErrorDocument 404 /404.php

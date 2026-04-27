@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-17 16:14+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: archive.php:47 index.php:53 search.php:53
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:48 index.php:54 search.php:54
+msgid "Next page"
+msgstr ""
+
+#: archive.php:49 index.php:55 search.php:55
+msgid "Page"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+#, php-format
+msgid "Theme Surface Blog by %s"
+msgstr ""
+
+#: footer.php:27
+msgid "Kantipur Themes"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "Blue"
+msgstr ""
+
+#: functions.php:97
+msgid "Green"
+msgstr ""
+
+#: functions.php:102
+msgid "Orange"
+msgstr ""
+
+#: functions.php:107
+msgid "Black"
+msgstr ""
+
+#: functions.php:112
+msgid "Grey"
+msgstr ""
+
+#: functions.php:121
+msgid "small"
+msgstr ""
+
+#: functions.php:122
+msgid "S"
+msgstr ""
+
+#: functions.php:127
+msgid "regular"
+msgstr ""
+
+#: functions.php:128
+msgid "M"
+msgstr ""
+
+#: functions.php:133
+msgid "larger"
+msgstr ""
+
+#: functions.php:134
+msgid "L"
+msgstr ""
+
+#: functions.php:139
+msgid "huge"
+msgstr ""
+
+#: functions.php:140
+msgid "XL"
+msgstr ""
+
+#: functions.php:174
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:176
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:186
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:188 functions.php:200 functions.php:212
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:198
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:269
+msgid "Expand child menu"
+msgstr ""
+
+#: functions.php:270
+msgid "Collapse child menu"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:64
+msgid "Menu"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:34
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:34
+msgid "Previous"
+msgstr ""
+
+#: single.php:35
+msgid "Next Post"
+msgstr ""
+
+#: single.php:35
+msgid "Next"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Surface Blog Pro"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/footer-widgets.php:10
+msgid "Footer"
+msgstr ""
+
+#: inc/icon-functions.php:37
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-functions.php:42
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on: %s"
+msgstr ""
+
+#: inc/template-tags.php:44
+#, php-format
+msgctxt "post author"
+msgid "by: %s"
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid " / "
+msgstr ""
+
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:73
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:97 template-parts/content-page.php:34
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/theme-options.php:11
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:19
+msgid "Featured Posts Section"
+msgstr ""
+
+#: inc/customizer/theme-options.php:35
+msgid "Enable Featured Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:54 inc/customizer/theme-options.php:140
+msgid "Select Categories"
+msgstr ""
+
+#: inc/customizer/theme-options.php:64
+msgid "Popular Posts Section"
+msgstr ""
+
+#: inc/customizer/theme-options.php:80
+msgid "Enable Popular Posts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:98
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/theme-options.php:116
+msgid "Number of Items (Max: 50)"
+msgstr ""
+
+#: inc/customizer/theme-options.php:150
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:167
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:172 inc/customizer/theme-options.php:197
+#: inc/customizer/theme-options.php:222 inc/customizer/theme-options.php:247
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:173 inc/customizer/theme-options.php:198
+#: inc/customizer/theme-options.php:223 inc/customizer/theme-options.php:248
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:174 inc/customizer/theme-options.php:199
+#: inc/customizer/theme-options.php:224 inc/customizer/theme-options.php:249
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:192
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:217
+msgid "Archive Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:242
+msgid "Page Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-options.php:257 inc/customizer/theme-options.php:271
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/theme-options.php:272
+msgid "Note: Min 5 & Max 100."
+msgstr ""
+
+#: inc/customizer/theme-options.php:281 inc/customizer/theme-options.php:287
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/theme-options.php:295
+msgid "Read More Label"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21
+msgid "Pages:"
+msgstr ""
